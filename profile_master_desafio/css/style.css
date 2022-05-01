@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Rubik';
+}
+html,body{
+    background-color:#111;
+    height:100%;
+  
+}
+.main{
+    width:100%;
+    padding-top:4em;
+}
+.container{
+    background-color:#222;
+    margin:0 auto;
+    width:85%;
+    min-height:27rem;
+   
+    
+}
+.header{
+    width:100%;
+    display:flex;
+    padding:3rem 0;
+}
+.box{
+    width:50%;
+    text-align: center;
+    
+   
+    
+}
+.box .img{
+    width:6rem;
+    height:6rem;
+    border-radius:50%;
+    background-color:#333;
+    display:inline-block;
+    position:relative;
+    top:1rem;
+}
+.box .text{
+    text-align:left;
+    display:inline-block;
+    color:#FFF;
+    font-size:1.4rem;
+    margin-left:0.8rem;
+}
+.editar{
+    width:50%;
+    text-align:center;
+    padding-top:4rem;
+}
+.editar a{
+    text-decoration:none;
+    font-size:1.5rem;
+    color:#fff;
+    background-color:#333;
+    padding:0.7rem 1rem;
+    border-radius:0.63rem
+}
+.editar a:hover{
+    color:#044A7D;
+}
+section.flex{
+    display:flex;
+    width:100%;
+    padding-left:3rem;
+    padding-top:4rem;
+}
+div.projetos{
+    width:23%;
+    height:7rem;
+    margin:0 2rem;
+    padding:1rem 1.5rem;
+    border-radius:0.7rem;
+    color:#fff;
+    background-color:#046313;
+    font-size:2rem;
+
+}
+div.projetos:nth-of-type(2){
+    background-color: #044A7D;
+}
+div.projetos:nth-of-type(3){
+    background-color: #725200;
+}
+footer{
+    text-align: center;
+    width:100%;
+    font-size:0.9rem;
+    padding-top:3em;
+}
+footer p{
+    color:#fff;
+    
+}
+@media screen and (max-width:810px){
+    .container{
+      
+        margin:1.5rem auto;
+        width:98%;
+        height:50rem;
+    
+    }
+    .header{
+        width:100%;
+        display:block;
+         
+        padding:2rem 0;
+    }
+    .box{
+        width:100%;
+        text-align: center;
+        
+        
+       
+        
+    }
+    .box .img{
+        margin:0 auto;
+        width:6rem;
+        height:6rem;
+        border-radius:50%;
+        background-color:#333;
+        padding-bottom:2rem;
+       
+    }
+    .box .text{
+        text-align:center;
+        display:block;
+        color:#FFF;
+        font-size:1.4rem;
+        margin-top:1rem;
+    }
+    .editar{
+        width:100%;
+        text-align:center;
+        padding-top:2rem;
+    }
+    section.flex{
+        display:block;
+        width:100%;
+        padding-left:0;
+        padding-top:1rem;
+    }
+    div.projetos{
+        width:80%;
+        height:8rem;
+        margin:1rem auto;
+        padding:1rem 2rem;
+        
+    
+    }
+}

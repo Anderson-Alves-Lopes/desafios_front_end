@@ -1,0 +1,594 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif;
+}
+html,body{
+    height:100%;
+}
+.clear{
+    clear:both;
+}
+header{
+    width:100%;
+    padding:30px 2%;
+}
+header h1{
+    float:left;
+    color:#D6000D;
+    font-size:60px;
+    font-weight:bold;
+    
+}
+header span{
+    color:black;
+    font-weight:normal;
+    font-size:80px;
+}
+header ul{
+    padding:20px 0;
+    float:right;
+    list-style-type:none;
+   
+}
+header li{
+    float:left;
+    margin:30px 20px;
+    font-size:20px;
+   
+}
+header .button{
+    width:200px;
+    height:50px;
+    background-color:#D6000D;
+    text-align:center;
+    margin-top:20px;
+    padding-top:10px;
+    border-radius:10px;
+}
+header .button > a{
+    color:white;
+     
+}
+header a{
+    text-decoration:none;
+     color:black;
+     font-weight:bold;
+}
+.orcamento{
+    padding:0 2%;
+}
+
+.orcamento img{
+    width:50%;
+    height:50%;
+    float:left;
+}
+.orcamento .negocio{
+    width:50%;
+    float:left;
+    padding-top:40px;
+    padding-left:30px;
+
+}
+.orcamento .negocio p{
+    font-weight:bold;
+    font-size:19px;
+    margin-top:20px;
+}
+.orcamento .negocio h1{
+    font-size:45px;
+    color:#D6000D;
+    margin:10px 0;
+}
+.orcamento-button{
+    width:200px;
+    height:40px;
+    background-color:#D6000D;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    border-radius:10px;
+    padding-top:10px;
+    font-weight:bold;
+    margin-top:40px;
+    cursor:pointer;
+}
+.contato{
+    padding:20% 2%;
+    display: flex;
+    
+}
+.form{
+   width:50%;
+   height:100%;
+   margin-top:100px;
+   
+
+}
+.form ul{
+   width:100%;
+   list-style-type:none;
+   float:left;
+}   
+.form li{
+   font-size:20px;
+   padding:20px 30px;
+   font-weight:bold;
+}
+.form ul img{
+    width:35px;
+    height:35px;
+    float:left;
+    margin-right:30px;
+    margin-top: 10px;
+}
+
+.form .input{
+    position:relative;
+    left:0;
+    top:60px;
+    width:140%;
+    
+}
+.input h2{
+    font-size:30px;
+    padding:20px 0;
+    display: inline-block;
+}
+.input input{
+  width:250px;
+  height:60px;
+  border-radius:15px;
+  border:none;
+  background-color:#ccc;
+  font-size:17px;
+  outline: none;;
+ 
+}
+.input > input[type=submit]{
+    position:absolute;
+    left:260px;
+    background-color:#D6000D;
+    color:white; 
+    cursor:pointer;
+}
+.input > input[type=text]{
+    padding-left:20px;
+}
+.contato img{
+    width:50%;
+    height:50%;
+   
+}
+section.depoimento{
+    padding:0 2%;
+    width:100%;
+    display:flex;
+}
+.depoimento .depoimento1{
+    width:50%;
+    background-color:#ccc;
+    border:15px solid white;
+    border-radius:20px;
+    padding-bottom:15px;
+}
+.depoimento1 .depoimento-img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:#D6000D;
+    float:left;
+    margin:30px 0 0 25px;
+}
+.depoimento1 .depoimento-text{
+    float:right;
+    text-align:left;
+    width:74%;
+    padding-right:5px;
+}
+.depoimento-text p{
+    margin-top:20px;
+}
+.depoimento-text h2{
+    margin-top:25px;
+}
+footer{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:300px;
+    margin-top:50px;
+    padding-top:60px;
+    background-color:black;
+    
+}
+.midia-social{
+    width:calc(100% / 4);
+    color:white;
+    padding:0 2.5%;
+}
+.midia-social img{
+    width:27px;
+    height:27px;
+    margin:20px 10px;
+    cursor:pointer;
+}
+.midia-social h2{
+    margin:15px 0;
+}
+.midia-social h1{
+    font-size:50px;
+    
+}
+.midia-social p{
+    margin:15px 0;
+    
+}
+@media screen and (max-width:840px){
+    .button{
+        display:none;
+    }
+    .orcamento img{
+        width:100%;
+        height:50%;
+        float:none;
+    }
+    .orcamento .negocio{
+        width:100%;
+        float:none;
+        padding-top:60px;
+        padding-left:0;
+        text-align: center;
+    
+    }
+    .orcamento .negocio p{
+        font-size:22px;
+        margin-top:20px;
+    }
+    .orcamento .negocio h1{
+        font-size:60px;
+        margin:10px 0;
+    }
+    .orcamento-button{
+        width:350px;
+        height:70px;
+        font-size:25px;
+        padding-top:20px;
+        margin:40px auto;
+    }
+    section.depoimento{
+        display:flex;
+        flex-direction: column;
+    }
+    .depoimento .depoimento1{
+        width:80%;
+        margin:0 auto;
+    }
+    .depoimento1 .depoimento-img{
+        width:80px;
+        height:80px;
+    }
+    footer{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        height:auto;
+        text-align: center;
+        
+    }
+    .midia-social{
+        width:100%;
+        padding:0 2.5%;
+    }
+    .midia-social h2{
+        margin:15px 0;
+        font-size:30px;
+    }
+    .midia-social h1{
+        font-size:60px;
+        
+    }
+    .midia-social p{
+        margin:15px 0;
+        font-size:20px;
+        
+    }
+    
+    
+}
+@media screen and (max-width:768px){
+    .contato{
+        display: flex;
+        flex-direction:column-reverse;
+        
+    }
+    .form{
+       width:100%;
+       height:100%;
+
+       
+    
+    }
+    .form ul{
+       width:100%;
+       padding-left: 80px;
+    }   
+    .form li{
+       font-size:20px;
+       padding:20px 30px;
+       font-weight:bold;
+    
+     
+    }  
+    .form .input{
+        position:relative;
+        left:0;
+        top:60px;
+        width:100%;
+        text-align: center;
+        
+    }
+    .input h2{
+        font-size:35px;
+        
+    }
+    .input input{
+      width:70%;
+      height:80px;
+      margin:10px 0;
+    }
+    .input > input[type=submit]{
+        position:static;
+    }
+    .contato img{
+        width:100%;
+        height:50%;
+       
+    }   
+    footer{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        height:auto;
+        text-align: left;
+        padding-left:20px;
+        
+    }
+    footer .midia-social:nth-of-type(1){
+        text-align: center;
+    }
+}
+@media screen and (max-width:660px){
+    
+    header{
+        width:100%;
+        padding:30px 2%;
+        text-align: center;
+    }
+    header h1{
+        float:none;
+        font-size:70px;
+    }
+    header ul{
+        padding:20px 0;
+        float:none;
+        
+    }
+    header li{
+        float:none;
+        margin:0 18px;
+        font-size:20px;
+        display: inline-block;
+    }
+
+    .depoimento .depoimento1{
+        width:100%;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width:600px){
+    .input h2{
+        font-size:30px;
+        
+    }
+}
+@media screen and (max-width:500px){
+    .orcamento .negocio p{
+        font-size:20px;
+        margin-top:20px;
+    }
+    .orcamento .negocio h1{
+        font-size:45px;
+        margin:10px 0;
+    }
+    .form ul{
+        width:100%;
+        padding-left: 50px;
+     }
+     .form ul img{
+        width:30px;
+        height:30px;
+    }   
+    .input h2{
+        font-size:26px;
+        padding:20px 0;
+        display: inline-block; 
+    
+    }
+    .input input{
+        width:80%;
+        height:70px;
+        margin:10px 0;
+      }
+    .depoimento1 .depoimento-img{
+        width:60px;
+        height:60px;
+        border-radius:50%;
+        float:left;
+        margin:30px 0 0 15px;
+    }
+    .depoimento1 .depoimento-text{
+        float:right;
+        text-align:left;
+        width:77%;
+        padding-right:0;
+    }
+    .depoimento-text p{
+        margin-top:20px;
+    }
+    .depoimento-text h2{
+        margin-top:25px;
+    }
+}
+@media screen and (max-width:450px){
+    .input h2{
+        font-size:23px;
+        
+    }
+}
+@media screen and (max-width:400px){
+    header li{
+        float:none;
+        margin:0 15px;
+        font-size:17px;
+        display: inline-block;
+    }
+    .orcamento .negocio p{
+        font-size:18px;
+        margin-top:20px;
+    }
+    .orcamento .negocio h1{
+        font-size:40px;
+        margin:10px 0;
+    }
+    .orcamento-button{
+        width:300px;
+        height:50px;
+        font-size:20px;
+        padding-top:15px;
+        margin:40px auto;
+    }
+    .form ul{
+        width:100%;
+        padding-left: 40px;
+     }   
+     .form li{
+        font-size:18px;
+        padding:15px 20px;
+        font-weight:bold;
+     
+      
+     }
+     .input h2{
+        font-size:20px;
+        padding:20px 0;
+        display: inline-block; 
+    
+    }
+    .input input{
+        width:80%;
+        height:60px;
+        margin:10px 0;
+      } 
+    .depoimento1 .depoimento-img{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+
+        margin:30px 0 0 15px;
+    }
+    .depoimento1 .depoimento-text{
+        float:right;
+        text-align:left;
+        width:77%;
+        padding-right:0;
+    }
+    .depoimento-text p{
+        margin-top:10px;
+        font-size:15px;
+    }
+    .depoimento-text h2{
+        margin-top:15px;
+    } 
+}
+@media screen and (max-width:350px){
+    header li{
+        margin:0 8px;
+        font-size:17px;
+    }
+    .orcamento .negocio p{
+        font-size:16px;
+        margin-top:20px;
+    }
+    .orcamento .negocio h1{
+        font-size:35px;
+        margin:10px 0;
+    }
+    .orcamento-button{
+        width:270px;
+        height:50px;
+        font-size:20px;
+        padding-top:15px;
+        margin:40px auto;
+    }
+        
+    .form ul{
+        width:100%;
+        padding-left:0;
+     } 
+     .form ul img{
+        margin-right:15px;
+        margin-top: 10px;
+    }  
+    .input h2{
+        font-size:18px;
+        padding:20px 0;
+        display: inline-block;
+        font-weight: bold; 
+    
+    } 
+    .input input{
+        width:85%;
+        height:60px;
+        margin:10px 0;
+      } 
+      .depoimento1 .depoimento-img{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+
+        margin:30px 0 0 5px;
+    }
+    .depoimento1 .depoimento-text{
+        float:right;
+        text-align:left;
+        width:77%;
+        padding-right:0;
+    }
+    .depoimento-text p{
+        margin-top:10px;
+        font-size:15px;
+    }
+    .depoimento-text h2{
+        margin-top:10px;
+    }  
+}
+@media screen and (max-width:300px){
+    .orcamento .negocio p{
+        font-size:15px;
+        margin-top:20px;
+    }
+    .orcamento .negocio h1{
+        font-size:33px;
+        margin:10px 0;
+    }
+    .orcamento-button{
+        width:250px;
+        height:50px;
+        font-size:20px;
+        padding-top:15px;
+        margin:40px auto;
+    }
+}
