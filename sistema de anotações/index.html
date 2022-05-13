@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Sistema de anotações</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+        <meta name="description" content="Descrição do meu site">
+        <meta name="keywords" content="palavras,separadas,por,virgula">
+        <meta name="author" content="Anderson Alves">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image-x/png" href="#">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-anotacoes">
+          
+        </div><!--container-anotacoes-->
+      <div class="btn-add">
+           <b>+</b>
+      </div><!--btb-add-->
+        <script src="js/jquery.js"></script>
+        <script>
+            $(function(){
+              $('.btn-add').click(function(){
+                  var el = '<div class="anotacao-single"><textarea placeholder="Sua nova anotação"></textarea></div>'
+                  $('.container-anotacoes').append(el);
+
+                  var textArea = $('.anotacao-single').last().find('textarea');
+                  
+                  var date = new Date();
+                  var hr = date.getHours();
+                  var min = date.getMinutes();
+                  var day = date.getDate();
+                  var mon = date.getMonth() +1;
+                  var finalTime = hr+":"+min+ "/"+day+ "/"+mon;
+                  textArea.html("Nova anotação em: "+finalTime);
+              })
+            });
+        </script>
+    </body>
+</html>
