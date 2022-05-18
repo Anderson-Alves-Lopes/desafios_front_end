@@ -32,12 +32,12 @@ header{
 .menu-items{
     padding:0 20px;
     margin-top:10px;
-    display:inline-block;
 }
 .menu-items a{
     color:rgb(120,120,120);
     margin-right:10px;
     text-decoration:none;
+    display: inline-block;
 }
 .menu-items a:hover{
     color:#fff;
