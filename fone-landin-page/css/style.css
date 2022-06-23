@@ -78,7 +78,7 @@ header .icons i{
 header .icons i:hover{
     background-color:#f2f4f7;
 }
-.hamburgue{
+header a.hamburgue{
     display:none;
 }
 
@@ -235,7 +235,7 @@ footer .container2 p{
         display:none;
     }
     .hamburgue{
-        display:inline;
+        display:block;
     }
     
 

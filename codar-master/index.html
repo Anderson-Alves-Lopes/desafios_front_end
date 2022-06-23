@@ -10,111 +10,104 @@
     <meta name="description" content="Descrição do meu site.">
     <meta name="author" content="Anderson">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="font-awesome/css/all.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Codar<span>.</span></h1>
+  <header>
+    <h1>Codar<span>.</span></h1>
+    <nav>
         <ul>
-            <li><a href="">Início</a></li>
+            <li><a href="">Inicío</a></li>
             <li><a href="">Serviços</a></li>
             <li><a href="">Contato</a></li>
-            <li class="button"><a href="">Login</a></li>
+            <li class="button-header"><a href="">Login</a></li>
         </ul>
-        <div class="clear"></div>
-    </header>
-    <section class="orcamento">
-        <img src="imagens/video_call.png">
-        <div class="negocio">
-            <p> Alavanque seu negócio com um</p>
-            <h1>Website incrível </h1>
-            <div class="orcamento-button">Solicitar orçamento</div>
+    </nav>
+  </header>
+  <section class="chamada">
+    <div class="container">
+     <div class="chamada-image">
+        <img src="imagens/video_call.png"/>
+     </div>
+     <div class="chamada-text">
+        <p>Alavanque seu negócio</p>
+        <h1>Website Incrivel</h1>
+        <a href="#">Solicitar orçamento</a>
+     </div>
+    </div><!--container-->
+  </section>
+  <section class="info">
+    <div class="container">
+      <div class="info-one">
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> Domínio personalizado</li>
+          <li><i class="fa-solid fa-circle-check"></i> Hospedagem</li>
+          <li><i class="fa-solid fa-circle-check"></i> Site responsivo</li>
+          <li><i class="fa-solid fa-circle-check"></i> Redes socias</li>
+          <li><i class="fa-solid fa-circle-check"></i> Chat online</li>
+          <li><i class="fa-solid fa-circle-check"></i> Blog integrado</li>
+        </ul>
+        <div class="info-image">
+          <img src="imagens/coding_.png"/>
         </div>
-        <div class="clear"></div>
-    </section>
-    <!--orcamento-->
-    <section class="contato">
-        <div class="form">
-            <div>
-                <ul>
-                    <img src="imagens/verifica.png">
-                    <li>Domínio personalizado</li>
-                    <img src="imagens/verifica.png">
-                    <li>Hospedagem</li>
-                    <img src="imagens/verifica.png">
-                    <li>Site responsivos</li>
-                    <img src="imagens/verifica.png">
-                    <li> Redes sociais</li>
-                    <img src="imagens/verifica.png">
-                    <li>Chat online</li>
-                    <img src="imagens/verifica.png">
-                    <li>Blog integrado</li>
-                </ul>
-            </div>
-            <div class="input">
-                <h2>Nossa equipe está à disposição!</h2>
-                <input type="text" placeholder="Celular">
-                <input type="submit" value="Nós ligamos para você">
-            </div>
-            <!--input-->
-        </div>
-        <!--form-->
-        <img src="imagens/coding_.png">
-        <div class="clear"></div>
-    </section>
-    <!--contato-->
-    <section class="depoimento">
-        <div class="depoimento1">
-            <div class="depoimento-img"></div>
-            <!--depoimento-img-->
-            <div class="depoimento-text">
-                <p>Já tive experiências com outras 4 empresas
-                     da área e a Codar é sem sombra 
-                    de dúvidas superior em todos os aspectos.
-                </p>
-                <h2>Pedro Ferreira</h2>
-                <h4>Construtora Minari</h4>
-            </div>
-            <!--depoimento-text-->
-        </div>
-        <!--depoimento1-->
-        <div class="depoimento1">
-            <div class="depoimento-img"></div>
-            <!--depoimento-img-->
-            <div class="depoimento-text">
-                <p>Processos bem simples e criação de um site
-                    exatamente como a minha escola queria!  
-                </p>
-                <h2> Maria Rita</h2>
-                <h4>Escola Criança Feliz</h4>
-            </div>
-            <div class="clear"></div>
-    </section>
-    <!--depoimento-->
-    <footer>
-        <div class="midia-social">
-            <h1>Codar.</h1>
-            <p> Criamos websites incríveis </p>
-        </div>
-        <div class="midia-social">
-           <h2>Sobre</h2>
-           <p>Amamos criar soluções <br>e entregar sites incríveis</p>
-        </div>
-        <div class="midia-social">
-           <h2>Contato</h2>
-           <P>123 Av. Manjar - Nárnia </P>
-           <p>+55 96 2321-3131</p>
-           <p> contato@codar.com</p>
-        </div>
-        <div class="midia-social">
-            <h2>Redes sociais</h2>
-            <img src="imagens/logotipo-do-aplicativo-do-facebook.png">
-            <img src="imagens/logotipo-do-instagram.png">
-            <img src="imagens/sinal-do-twitter.png">
-           
-        </div>
-    </footer>
+      </div><!--info-one-->
+      <h3>Nossa equipe está à disposição!</h3>
+      <br>
+      <div class="info-form">
+       <input type="tel" placeholder="Celular" name="telefone"/>
+       <input type="submit" value="Ligamos para você"/>
+      </div><!--info-form-->
+    </div><!--container-->
+  </section>
+  <section class="depoimento">
+  <div class="container">
+   <div class="depoimento-box">
+    <div class="depoimento-image">
+      <div class="img"></div>
+    </div>
+    <div class="depoimento-text">
+     <p>Já tive experiências com outras 4 empresas da área e a Codar é sem dúvidas superior em todos os aspectos.</p>
+     <h2>Pedro Ferreira</h2>
+     <p><strong>Construtora Minari</strong></p>
+    </div>
+   </div>
+   <div class="depoimento-box">
+    <div class="depoimento-image">
+      <div class="img"></div>
+    </div>
+    <div class="depoimento-text">
+    <p>Processos bem simples e criação de um site exatament como a minha escola queria!</p>
+    <h2>Maria Rita</h2>
+    <p><strong>Escola Criança Feliz</strong></p>
+  </div>
+   </div>
+  </div><!---container-->
+  </section><!--depoimento-->
+  <footer>
+    <div class="container">
+    <div class="footer-box">
+     <h1>Codar.</h1>
+     <p>Criamos wesites incríveis</p>
+    </div>
+    <div class="footer-box">
+      <h3>Sobre</h3>
+      <p>Amamos criar soluções e entregar sites incríveis</p>
+    </div>
+    <div class="footer-box">
+      <h3>Contato</h3>
+      <p>123 Av. Manjar-Nárnia<br><br>+55 96 2321-3131</p>
+      <a href="">contato@codar.com</a>
+    </div>
+    <div class="footer-box">
+      <h3>Redes sociais</h3>
+      <i class="fa-brands fa-facebook-square"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter-square"></i>
+    </div>
+    </div>
+  </footer>
 </body>
 
 </html>
