@@ -1,5 +1,5 @@
 $(function(){
-    $('.mobile').click(function(){
-        $(this).find('ul').slideToggle();
+    $('.menu').click(function(){
+        $(this).find('nav ul').slideToggle();
     })
 });
