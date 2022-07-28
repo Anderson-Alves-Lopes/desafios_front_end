@@ -1,2 +1,2 @@
-# desafios_front_end
- Desafios_DevChanllenge_edankicode
+# Desafios_front_end
+ Desafios Front-end  para aprimorar tecnicas.
